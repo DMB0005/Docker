@@ -1,5 +1,4 @@
 FROM almalinux
-RUN yum intsall nginx -y
+RUN yum install nginx -y
 CMD ["nginx","-g","demon off"]
-
 
