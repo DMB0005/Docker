@@ -1,0 +1,109 @@
+yum install git -y
+    2  sudo yum install git -y
+    3  clear
+    4  sudo yum update -y
+    5  sudo amazon-linux-extras install docker
+    6  sudo service docker start
+    7  sudo systemctl enable docker
+    8  sudo usermod -a -G docker ec2-user
+    9  sudo git --version
+   10  git clone https://github.com/DMB0005/Docker.git
+   11  docker run -d -p 80:80 nginx
+   12  ls
+   13  cd Docker
+   14  ls
+   15  cd add
+   16  docker images
+   17  docker run -it add
+   18  docker ps
+   19  docker stop ac905a8bb098
+   20  docker rm ac905a8bb098
+   21  docker ps
+   22  docker exec -it 3451a99291ae bash
+   23  docker ps
+   24  docker stop 3451a99291ae
+   25  docker rm 3451a99291ae
+   26  docker ps
+   27  docker ps -a
+   28  dokcer rm -f 81676312880d
+   29  docker rm -f 81676312880d
+   30  docker ps -a
+   31  docker images
+   32  docker run -it add
+   33  docker build -t add:v1 .
+   34  docker run -it add:v1
+   35  git pull
+   36  docker build -t add:v1 .
+   37  docker pull
+   38  git pull
+   39  docker build -t add:v1 .
+   40  git pull
+   41  docker build -t add:v1 .
+   42  git pull
+   43  docker build -t add:v1 .
+   44  git pull
+   45  docker build -t add:v1 .
+   46  cd ..
+   47  clear
+   48  ls
+   49  cd Docker
+   50  ls
+   51  git pull
+   52  ls
+   53  cd Entrypoint
+   54  docker build -t ep.v1 .
+   55  docker images
+   56  docker run ep.v1
+   57  docker run ep.v1 ping -c10 facebook.com
+   58  git pull
+   59  docker build ep1.v1 .
+   60  docker build -t ep1.v1 .
+   61  docker images
+   62  docker run ep1.v1
+   63  docker run ep1.v1 ping -c10 facebook.com
+   64  git pull
+   65  docker build -t ep1.v1 .
+   66  docker run ep1.v1
+   67  git pull
+   68  docker build -t ep1.v1 .
+   69  docker run ep1.v1
+   70  docker run ep1.v1 ping -c5 yahoo.com
+   71  docker run ep1.v1 ping -c5 facebook.com
+   72  docker run ep1.v1 ping -c10 facebook.com
+   73  docker run ep1.v1 facebook.com
+   74  docker run ep1.v1 yahoo.com
+   75  cd .
+   76  cd ..
+   77  git pull
+   78  ls
+   79  cd User
+   80  docker build -t user:v1 .
+   81  docker run -it user:v1
+   82  git pull
+   83  docker build -t  user:v1
+   84  docker build -t  user:v1 .
+   85  docker run -it user:v1
+   86  docker ps
+   87  docker ps -a
+   88  docker rm -f df805928f503 dfcd6bf86dfd 0d0b3820806d 7037cca3de38 239cf6db1d44 6f9d95fe31b8 25ed8860ac03 409e9d3e04a2 2b86c6ca3b6c a41650c5ee3b f31fe732402c e2990cb8ff5b 71daabd9f8a4 8fecd0fe89cb 1d4e5ae93b08
+   89  docker ps -a
+   90  docker ps
+   91  docker images
+   92  docker rmi -f 81d9f8aeb35a 8091fff38425 b055380e157a 5b2ccc1de916 40bae4cf166c 42b978d383e1 eb9d94d569dd 2b4a890f50dc 629121dd4168 b6df90494aa8 fb5bee34d905 6a73b5c1998d 6a73b5c1998d 6a73b5c1998d 021283c8eb95 7ba003a70874
+   93  dokcer images
+   94  docker images
+   95  clear
+   96  cd ..
+   97  clear
+   98  docker run -d -p 8080:80 nginx
+   99  docker ps
+  100  dokcer ps -a
+  101  docker exec -it b0f45164bfc7 bash
+  102  dokcer ps -a
+  103  docker ps
+  104  docker rm -f b0f45164bfc7
+  105  docker ps
+  106  docker images
+  107  docker run -d -p 8080:80 nginx
+  108  docker ps
+  109  history
